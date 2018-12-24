@@ -25,7 +25,7 @@ X_test <- read.table('X_test.txt')
 test <- cbind(subject_test, activity_test, X_test)
 names(test) <- labels
 
-## adding an test identifier column
+## adding a test identifier column
 test_dataset <- data.frame(set = 'test', test)
 
 ## merging the 2 tables by stacking them together through rbind

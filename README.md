@@ -1,6 +1,6 @@
 ## GettingandCleaningData Programming Assignment
 
-Program uses te dplyr package
+Program uses the dplyr package
 
 Test and train data are treated sparately at first then merged into one later
 
